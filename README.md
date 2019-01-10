@@ -14,5 +14,5 @@ DataBase - to minimize the project i did not use a database and instead used a s
 JavaScript
 Jquery
 
-![how it looks](https://imgur.com/a/puNhahV)
+![how it looks](https://i.imgur.com/LOZA98r.png)
 

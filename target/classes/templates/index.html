@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>LTChat</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>    
+    <link type="text/css" th:href="@{/css/jquery.jscrollpane.css}" rel="stylesheet" media="all" />
+    <link th:href="@{/css/style.css}" rel="stylesheet" />   
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">LTChat.org</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container" style="min-height: 500px">
+
+    <div class="starter-template">
+        <h1>Welcome to the LTC ChatBot Community Project</h1>
+		
+		<div id = "chatbox" class="scroll-pane"></div>
+		
+		<div class="form-container">
+	         <div>
+	           <input type="text" class="form-control" id="question" placeholder="ask your question" />
+	         </div>
+	       	 <div>
+	       	   <button type="submit" id="bth-search" class="btn btn-primary btn-lg">Search</button>
+	       	 </div>   
+	       </div>
+
+    </div>
+
+</div>
+
+<div class="container">
+    <footer>
+        <p>
+            © <a id="footer-link" href="http://www.ltchat.org">LTChat.org</a> 2018
+        </p>
+    </footer>
+</div>
+
+<script type="text/javascript" src="webjars/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+</body>
+</html>

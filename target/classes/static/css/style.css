@@ -1,0 +1,135 @@
+/*
+~~~~~~~~~GENERAL~~~~~~~~~
+ */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: 'arial', sans-serif;
+	font-size: 16px;
+}
+
+footer {
+	margin-top: 6rem;
+}
+
+nav {
+	background: #444;
+	width: 100%;
+	padding: 1rem 0;
+}
+
+button {
+	background: #0080ff;
+	width: 6.25rem;
+	height: 2.875rem;
+	font-size: 1.2rem;
+	border-radius: 0.3125rem;
+	color: #fff;
+	border: none;
+}
+
+input {
+	width: 35rem;
+	height: 2.875rem;
+	padding-left: 0.5rem;
+	font-size: 1rem;
+}
+
+h1 {
+	margin-bottom: 2rem;
+}
+
+/*
+~~~~~~~~~CHATBOX AND MESSAGES~~~~~~~~~
+ */
+#chatbox {
+	border: 0.0625rem solid #ddd;
+	padding: 0.9375rem;
+	width: 71.25rem;
+	max-height: 22rem;
+	min-height: 22rem;
+	margin-bottom: 2rem;
+}
+
+.question {
+	margin-bottom: 0.3rem;
+}
+
+.answer {
+	margin-bottom: 1rem;
+}
+
+.you {
+	color: blue;
+}
+
+.bot {
+	color: purple;
+}
+
+.starter-template {
+	margin-top: 2rem;
+}
+
+
+/*
+~~~~~~~~~SCROLLER~~~~~~~~~
+ */
+.scroll-pane {
+	width: 100%;
+	overflow: auto;
+}
+
+.navbar-brand {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+.jspVerticalBar {
+	width: 6px;
+	opacity: 0.1;
+	background: #000;
+}
+
+.jspDrag {
+	background: blue;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 1px 0px black;
+}
+
+/*
+~~~~~~~~~CONTAINERS~~~~~~~~~
+ */
+ 
+.container {
+	width: 73.125rem;
+	margin: 0 auto;
+}
+
+.form-container {
+	display: inline-grid;
+	grid-template-columns: 35rem 6rem;
+	grid-column-gap: 2rem;
+	align-items: center;
+}
+
+
+/*
+~~~~~~~~~FOOTER~~~~~~~~~
+ */
+
+#footer-link {
+	text-decoration: none;
+}
+

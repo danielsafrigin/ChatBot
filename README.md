@@ -11,8 +11,8 @@ DataBase - to minimize the project i did not use a database and instead used a s
 
 
 ### client:<br>
-JavaScript
-Jquery
+JavaScript.<br>
+Jquery.<br>
 
 ![how it looks](https://i.imgur.com/LOZA98r.png)
 
